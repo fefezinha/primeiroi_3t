@@ -1,1 +1,16 @@
+.calculadora{
+    background: rgb(171, 240, 59);
+    width: 200px;
+    padding: 10px;
+}
+#btnCalc {
+    background: rgb(254, 138, 214);
+    color:black;
+    padding: 5px;
+}
+#btnCalc:hover {
+    background: rgb(164, 236, 243);
+    color: black;
+    cursor:pointer;
+}
 
