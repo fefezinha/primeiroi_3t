@@ -34,17 +34,22 @@ function quadrado(){
         document.write("O quadrado de " + i + " é " + (i*i)+"<br>");
     }
 }
+function moeda(atual){
+    
+}
+function total()
 
-function total(){
     let val = document.getElementById("valor").value;
     let ju = document.getElementById("juros").value;
+    
+    let t=document.getElementById("meses").vaçue
+    let resultado = 0;
+    for(let m = 1; m <= t; m++){
+        resultado = (val * ((ju/100)+1))
+        val = resultado;
+        document.write("Mês " + m + valor de " + moeda"(val) + "<br>");
+    }
 
-     if(!Number(val)){
-         alert("O valor deve ser um número.");
-         document.getElementById("valor").value = "";
-         document.getElementById("valor").focus();
-         return
-     }
 
     let resultado = (val * (ju/100+1)) + val;
     document.write("O total é de:" + resultado);
