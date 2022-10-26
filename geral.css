@@ -1,16 +1,24 @@
 .calculadora{
-    background: rgb(171, 240, 59);
+    background:rgb(160, 221, 213) ;
     width: 200px;
     padding: 10px;
-}
-#btnCalc {
-    background: rgb(254, 138, 214);
-    color:black;
-    padding: 5px;
-}
-#btnCalc:hover {
-    background: rgb(164, 236, 243);
-    color: black;
-    cursor:pointer;
+
 }
 
+#btnCalc {
+    background: rgb(100, 140, 226);
+    color: seashell;
+    padding: 5px;
+}
+
+#btnCalc:hover {
+    background: rgb(106, 226, 156);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.spResultado{
+    background: black;
+    color: yellow;
+    padding: 4px;
+    margin: 2px;
+}
